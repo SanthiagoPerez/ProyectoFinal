@@ -1,0 +1,242 @@
+body {
+  background-color:gainsboro;
+  font-family: Georgia;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(/GOLITO/LIBRERIAS/static/DynaPuff-Bold.ttf);  
+    
+}
+  
+.letra {
+    font-family: myFirstFont;
+    font-style: oblique;
+}
+
+@font-face{
+    font-family: mySecondFont;
+    src: url(/GOLITO/LIBRERIAS/static/Oswald-SemiBold.ttf);
+}
+
+.nombre{
+    color:black;
+    font-family: mySecondFont;
+}
+
+@font-face {
+  font-family: myTerceraFont;
+  src: url(/GOLITO/LIBRERIAS/static/DynaPuff_SemiCondensed-Regular.ttf);
+}
+
+.informacion{
+    color:brown;
+    font-family: myTerceraFont;
+    font-size: 30px;
+    text-align: center;
+}
+
+.img{
+  float: left;
+    width: 250px;
+    height: 250px;  
+}
+
+.modal-content {
+  border-radius: 25px;
+  background-color: rgb(155, 153, 255);
+  background-color: rgba(red, green, blue, alpha);
+  font-family: 'oblique';
+  font-style: oblique;
+  font-weight: 900;
+}
+
+  main {
+    height: auto;
+  }
+
+.carousel img {
+  width: 50%; /* Ajusta el ancho al 80% del contenedor */
+  max-width: 50%; /* Evita que la imagen sobrepase el contenedor */
+  margin: 0 auto; /* Centra la imagen */
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)  99px 99px 99px 99px 99px 99px 99px;
+    grid-auto-rows: 100px;
+   
+}
+
+.box1 {
+   grid-column-start: 1;
+   grid-column-end: 4;
+   grid-row-start: 1;
+   grid-row-end: 2;
+}
+
+.box2 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.box3 {
+    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-row-end: 7;
+
+}
+
+.box4 {
+    grid-column-start: 1;
+    grid-row-start: 7;
+    grid-row-end: 9;
+}
+
+.box5 {
+    grid-column-start: 1;
+    grid-row-start: 9;
+    grid-row-end: 11;
+}
+
+.wrapper {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: plum;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Crea 3 columnas de igual tamaño */
+  grid-template-rows: repeat(3, 100px); /* Crea 3 filas de altura fija de 100px */
+  gap: 10px; /* Espacio entre las celdas */
+}
+
+.item {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.table {border-collapse:collapse;}
+  table {text-align:center;}
+  tr {border:10px solid #ced4da;padding:0.10rem 0.90rem;}
+  th,td{padding:3px;}s
+  th {background-color:#96d0e4;}
+  table,th,td {border:1px solid black;}
+
+  @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+.contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #aec1ec; 
+  padding-left: 30px; 
+}
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #008fee; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+label{
+  display: block; 
+  float: center;  
+}
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #ab4493; 
+  border-color: #ab4493; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+button p{
+  color: #fff; 
+}
+
+span{
+  color: #ab4493; 
+}
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #000000;
+}
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
